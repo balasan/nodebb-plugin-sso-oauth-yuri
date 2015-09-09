@@ -38,8 +38,8 @@
 				consumerSecret: ''
 			},
 			oauth2: {
-				authorizationURL: 'yuri.ilykei.com/auth/oauth/authorise',
-				tokenURL: 'yuri.ilykei.com/auth/oauth/token',
+				authorizationURL: '//yuri.ilykei.com/auth/oauth/authorise',
+				tokenURL: '//yuri.ilykei.com/auth/oauth/token',
 				clientID: 'nodeBBclient',
 				clientSecret: process.env.nodeBBClientSecret
 			},
