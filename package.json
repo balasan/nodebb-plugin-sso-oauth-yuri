@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-sso-oauth-yuri",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "NodeBB Generic OAuth SSO",
   "main": "library.js",
   "repository": {
