@@ -41,7 +41,7 @@
 				authorizationURL: 'yuri.ilykei.com/auth/oauth/authorise',
 				tokenURL: 'yuri.ilykei.com/auth/oauth/token',
 				clientID: 'nodeBBclient',
-				clientSecret: 'nodeBBclientTestSecret'
+				clientSecret: process.env.nodeBBClientSecret
 			},
 			userRoute: 'yuri.ilykei.com/api/users/me'	// This is the address to your app's "user profile" API endpoint (expects JSON)
 		}),
