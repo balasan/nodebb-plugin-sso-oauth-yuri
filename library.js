@@ -38,12 +38,12 @@
 				consumerSecret: ''
 			},
 			oauth2: {
-				authorizationURL: 'http://yuri.ilykei.com/auth/oauth/authorise',
-				tokenURL: 'http://yuri.ilykei.com/auth/oauth/token',
+				authorizationURL: 'http://ilykei.com/auth/oauth/authorise',
+				tokenURL: 'http://ilykei.com/auth/oauth/token',
 				clientID: 'nodeBBclient',
 				clientSecret: process.env.nodeBBClientSecret
 			},
-			userRoute: 'http://yuri.ilykei.com/api/users/me'	// This is the address to your app's "user profile" API endpoint (expects JSON)
+			userRoute: 'http://ilykei.com/api/users/me'	// This is the address to your app's "user profile" API endpoint (expects JSON)
 		}),
 		configOk = false,
 		OAuth = {}, passportOAuth, opts;
